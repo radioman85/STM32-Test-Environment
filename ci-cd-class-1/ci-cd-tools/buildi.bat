@@ -20,7 +20,7 @@ set "build_type=%1"
 set "target=%2"
 
 :set_build_dir
-set "ws_root=C:\Users\gene\Documents\Gene\proj\STM32CubeIDE\workspace_1.6.1\ci-cd-class-1"
+set "ws_root=C:\98-Others\STM32-Test-Environment\ci-cd-class-1"
 set "build_dir=%ws_root%\%build_type%"
 
 "%ws_root%\ci-cd-tools\build.bat" "%build_dir%" %build_type% %target%
