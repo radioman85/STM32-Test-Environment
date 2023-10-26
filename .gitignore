@@ -1,0 +1,120 @@
+# Ignore build output directories
+bin/
+Debug/
+Release/
+.obj/
+settings/
+Settings/
+[Bb]in/
+[Oo]bj/
+[Db]eug/
+[Rr]elease/
+[Tt]arget/
+[Ii]p/
+.iar/
+.atsln/
+._workspace/
+_ide/
+settings/
+
+# Ignore IDE and editor specific files
+.metadata/
+.vscode/
+.idea/
+*.launch
+*.settings/
+*.autosave
+.settings/
+.tm_project
+launch/
+.scr/
+.atsuo/
+.settings/
+.airs/
+.aurora/
+.metadyn/
+.dlight/
+__iartmp/
+eclipse
+startup.cproject
+hard-fault-hook.cproject
+startup.asm.cproject
+c_src/
+debug/
+RTE/
+_Studio/
+-cmake/
+cmake/
+CMakeFiles/
+CMakeScripts/
+CMakeSettings.json
+CMakeCache.txt
+CMakePredefinedTargets.json
+CMakeUserPresets.json
+
+# Ignore binary files and executables
+*.hex
+*.bin
+*.elf
+*.a
+*.o
+*.out
+
+# Ignore user-specific files
+cortex_debug
+settings.xml
+
+# Ignore generated documentation
+Documentation/
+
+# Ignore some commonly used tools
+cmake-build-debug/
+.uvprojx
+.uvgui
+.uvoptx
+.uvguix/
+.uvision/
+
+# Ignore dependency files
+.depend
+*.d
+*.su
+
+# Ignore log files
+*.log
+
+# Ignore temporary files and directories
+.tmp/
+.temp/
+.temp_bin/
+*.swp
+*~
+*.orig
+*.bak
+*.rej
+*.rpo
+*.x86
+*.patch
+*.orig
+*.diff
+*.gzip
+*.log
+*.tar
+*.zip
+*.swp
+
+# Ignore custom project-specific files
+# Add any additional project-specific ignores here
+
+# Ignore certain generated files
+*.iml
+*.ipr
+*.iws
+*.class
+*.jar
+
+# Additional patterns
+.syncinfo.snap
+.markers.snap
+0.snap
+launchConfigurationHistory.xml
