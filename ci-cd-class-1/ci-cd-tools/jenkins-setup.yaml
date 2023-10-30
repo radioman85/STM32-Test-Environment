@@ -7,15 +7,10 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - jenkins_data:/var/jenkins_home
+      - C:\docker-storage:/var/jenkins_home
     networks:
       - jenkinsnet
-    environment:
-      - JENKINS_ADMIN_PASSWORD=cT3oHrW00Y7zZ7SkuMGi
     restart: unless-stopped
 
 networks:
   jenkinsnet:
-
-volumes:
-  jenkins_data:
